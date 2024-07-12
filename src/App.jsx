@@ -7,8 +7,7 @@ import "./App.css";
 import Sidebar from "./components/Sidebar";
 import MainSection from "./components/MainSection";
 import Player from "./components/Player";
-import store from "./redux/store"; // Ensure this path is correct
-
+import store from "./redux/store";
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
